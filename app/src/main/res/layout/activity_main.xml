@@ -19,14 +19,11 @@
         android:minHeight="48dp"
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/share_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="18dp"
-        android:layout_marginTop="380dp"
-        tools:ignore="SpeakableTextPresentCheck" />
-
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
 </LinearLayout>
